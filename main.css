@@ -63,14 +63,16 @@ body {
 #skills ul li{
   text-decoration: none;
   color: #ebcf5e;
-  font-weight: normal;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px
 }
 
 #skills ul li:hover{
   text-decoration: none;
   color: #f6eab9;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .box {
@@ -87,7 +89,7 @@ body {
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 300;
-  font-size: 16px;
+  font-size: 18px;
 
   padding-left: 30px;
 }
@@ -125,7 +127,7 @@ p a:hover {
 }
 
 #contact a img {
-  width: 10%;
+  width: 90px;
 }
 
 
@@ -139,6 +141,11 @@ p a:hover {
 #me #avatar img {
   border-radius: 100%;
   width: 80%;
+}
+
+#me #avatar-small img {
+  border-radius: 100%;
+  width: 30%;
 }
 
 #contact {
