@@ -94,7 +94,6 @@ body {
   padding-left: 30px;
 }
 
-
 div h1 {
   color: #eb4b63;
   text-shadow: 0 0 6px #000000;
@@ -110,6 +109,16 @@ div h2 {
   font-family: 'Open Sans';
   font-weight:300;
   font-style: italic;
+}
+
+#me div h2 {
+  color: #c8e9fa;
+  text-shadow: 0 0 3px #adb1c3;
+  font-family: 'Open Sans';
+  font-weight:300;
+  font-style: italic;
+
+  padding-left: 28px;
 }
 
 p {
@@ -138,12 +147,22 @@ p a:hover {
   padding-right: 0px;
 }
 
-#me #avatar img {
+/*#me #avatar img {
   border-radius: 100%;
   width: 80%;
 }
 
 #me #avatar-small img {
+  border-radius: 100%;
+  width: 30%;
+}*/
+
+#me #avatar a img {
+  border-radius: 100%;
+  width: 80%;
+}
+
+#me #avatar-small a img {
   border-radius: 100%;
   width: 30%;
 }
@@ -160,4 +179,22 @@ p a:hover {
 
 .subsection p {
   padding-left: 30px;
+}
+
+.footer{
+  background-color: rgba(4, 13, 28, 0.51);
+  /*border-radius: 5px;*/
+
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 0;
+
+}
+
+.footer p{
+  font-size: 15px;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
 }
