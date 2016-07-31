@@ -142,12 +142,7 @@ p {
   color: #e0e0e0;
 }
 
-p a {
-  color: #ebcf5e;
-  font-weight: normal;
-}
-
-p a:hover {
+p a, p a:hover, p a:active, p a:visited {
   color: #ebcf5e;
   font-weight: normal;
 }
