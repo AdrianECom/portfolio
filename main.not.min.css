@@ -12,6 +12,16 @@ body {
       background-size: 100% 100%;
       background-attachment: fixed;
     }
+
+    #contact{
+      margin-left: 25%;
+    }
+
+    #contact a img {
+      display: block;
+      width: 200px;
+    }
+
 }
 
 /* Large Devices, Wide Screens */
@@ -25,6 +35,11 @@ body {
       background-size: 100% 100%;
       background-attachment: fixed;
     }
+
+    #contact a img {
+      width: 100px;
+    }
+
 }
 
 
@@ -146,11 +161,6 @@ p a, p a:hover, p a:active, p a:visited {
   color: #ebcf5e;
   font-weight: normal;
 }
-
-#contact a img {
-  width: 90px;
-}
-
 
 #me #avatar{
   text-align: center;
