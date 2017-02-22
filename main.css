@@ -23,6 +23,15 @@ body {
       width: 200px;
     }
 
+    .box p {
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 300;
+      font-size: 18px;
+
+      padding-left: 30px;
+    }
+
 }
 
 /* Large Devices, Wide Screens */
@@ -40,6 +49,20 @@ body {
 
     #contact a img {
       width: 100px;
+    }
+
+    #contact a img {
+      display: block;
+      width: 100px;
+    }
+
+    .box p {
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 300;
+      font-size: 30px;
+
+      padding-left: 30px;
     }
 
 }
@@ -119,14 +142,7 @@ body {
   padding-right: 40px;*/
 }
 
-.box p {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 300;
-  font-size: 18px;
 
-  padding-left: 30px;
-}
 
 div h1 {
   color: #eb4b63;
