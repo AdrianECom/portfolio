@@ -14,13 +14,16 @@ body {
       background-attachment: fixed;
     }
 
-    #contact{
-      margin-left: 25%;
+
+
+    #contact {
+      vertical-align: middle;
+      text-align: center;
     }
 
     #contact a img {
-      display: block;
-      width: 170px;
+      display: inline-block;;
+      width: 200px;
     }
 
 
@@ -58,7 +61,7 @@ body {
       color: #ebcf5e;
       font-style: normal;
       font-weight: 300;
-      font-size: 25px
+      font-size: 30px
     }
 
 }
@@ -74,6 +77,12 @@ body {
       background-repeat: no-repeat;
       background-size: 100% 100%;
       background-attachment: fixed;
+    }
+
+    #contact {
+      padding-left: 13%;
+      vertical-align: middle;
+      text-align: center;
     }
 
     #contact a img {
@@ -250,11 +259,7 @@ p a, p a:hover, p a:active, p a:visited {
   width: 30%;
 }
 
-#contact {
-  padding-left: 13%;
-  vertical-align: middle;
-  text-align: center;
-}
+
 
 .subsection {
   padding-left: 50px;
