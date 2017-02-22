@@ -53,6 +53,18 @@ body {
       font-size: 50px;
     }
 
+    #skills ul li{
+      text-decoration: none;
+      color: #ebcf5e;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 25px
+    }
+
+    #skills ul li:hover{
+
+    }
+
 }
 
 /* Large Devices, Wide Screens */
@@ -96,6 +108,21 @@ body {
       font-family: 'Open Sans';
       font-weight:300;
       font-style: italic;
+    }
+
+    #skills ul li{
+      text-decoration: none;
+      color: #ebcf5e;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 18px
+    }
+
+    #skills ul li:hover{
+      text-decoration: none;
+      color: #f6eab9;
+      font-weight: normal;
+      font-size: 20px;
     }
 
 }
@@ -150,20 +177,7 @@ body {
 }
 
 
-#skills ul li{
-  text-decoration: none;
-  color: #ebcf5e;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 18px
-}
 
-#skills ul li:hover{
-  text-decoration: none;
-  color: #f6eab9;
-  font-weight: normal;
-  font-size: 20px;
-}
 
 .box {
   /*background-color: #4CAF50;*/
@@ -177,7 +191,7 @@ body {
 
 
 
-div h1 {
+/*div h1 {
   color: #eb4b63;
   text-shadow: 0 0 6px #000000;
   font-size: 50px;
@@ -192,7 +206,7 @@ div h2 {
   font-family: 'Open Sans';
   font-weight:300;
   font-style: italic;
-}
+}*/
 
 #me div h2 {
   color: #c8e9fa;
