@@ -29,28 +29,28 @@ body {
       font-family: 'Open Sans';
       font-style: normal;
       font-weight: 300;
-      font-size: 45px;
+      font-size: 30px;
 
       padding-left: 30px;
     }
 
-    div h1 {
+    .box div h1 {
       color: #eb4b63;
       text-shadow: 0 0 6px #000000;
-      font-size: 300px;
+      font-size: 100px;
       font-family: 'Galada';
       font-weight: bolder;
 
     }
 
-    div h2 {
+    .box div h2 {
       color: #c8e9fa;
       text-shadow: 0 0 3px #adb1c3;
       font-family: 'Open Sans';
       font-weight:300;
       font-style: italic;
 
-      font-size: 80px;
+      font-size: 45px;
     }
 
 }
@@ -81,7 +81,7 @@ body {
       padding-left: 30px;
     }
 
-    div h1 {
+    .box div h1 {
       color: #eb4b63;
       text-shadow: 0 0 6px #000000;
       font-size: 50px;
@@ -90,7 +90,7 @@ body {
 
     }
 
-    div h2 {
+    .box div h2 {
       color: #c8e9fa;
       text-shadow: 0 0 3px #adb1c3;
       font-family: 'Open Sans';
