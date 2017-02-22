@@ -37,7 +37,7 @@ body {
     div h1 {
       color: #eb4b63;
       text-shadow: 0 0 6px #000000;
-      font-size: 220px;
+      font-size: 300px;
       font-family: 'Galada';
       font-weight: bolder;
 
@@ -50,7 +50,7 @@ body {
       font-weight:300;
       font-style: italic;
 
-      font-size: 150px;
+      font-size: 80px;
     }
 
 }
