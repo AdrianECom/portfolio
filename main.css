@@ -23,11 +23,13 @@ body {
       width: 200px;
     }
 
+
+
     .box p {
       font-family: 'Open Sans';
       font-style: normal;
       font-weight: 300;
-      font-size: 18px;
+      font-size: 30px;
 
       padding-left: 30px;
     }
@@ -60,7 +62,7 @@ body {
       font-family: 'Open Sans';
       font-style: normal;
       font-weight: 300;
-      font-size: 30px;
+      font-size: 18px;
 
       padding-left: 30px;
     }
