@@ -251,6 +251,7 @@ p a, p a:hover, p a:active, p a:visited {
 #me #avatar{
   text-align: center;
   vertical-align: middle;
+  margin-top: 5px;
   padding-left: 0px;
   padding-right: 0px;
 }
@@ -275,7 +276,9 @@ p a, p a:hover, p a:active, p a:visited {
   width: 30%;
 }
 
-
+section {
+  background: linear-gradient(to left, rgba(73, 131, 208, 0.36) , rgba(0, 0, 0, 0));
+}
 
 .subsection {
   padding-left: 50px;
@@ -286,7 +289,7 @@ p a, p a:hover, p a:active, p a:visited {
 }
 
 .footer{
-  background-color: rgba(4, 13, 28, 0.51);
+  background: linear-gradient(to left, rgba(73, 131, 208, 0.36) , rgba(0, 0, 0, 0));
   /*border-radius: 5px;*/
 
   padding-top: 2%;
