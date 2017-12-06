@@ -129,13 +129,6 @@ body {
       font-size: 18px
     }
 
-    #skills ul li:hover{
-      text-decoration: none;
-      color: #f6eab9;
-      font-weight: normal;
-      font-size: 20px;
-    }
-
     .footer p{
       font-size: 15px;
 
@@ -152,6 +145,7 @@ body {
   list-style-type: none;
   margin: 0;
   padding: 20px;
+  padding-top: 3%;
   width: 20%;
   background-color: #f1f1f1;
   position: fixed;
@@ -239,11 +233,6 @@ div h2 {
 
 p {
   color: #e0e0e0;
-}
-
-p a, p a:hover, p a:active, p a:visited {
-  color: #ebcf5e;
-  font-weight: normal;
 }
 
 #me #avatar{
