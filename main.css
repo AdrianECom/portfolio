@@ -277,7 +277,9 @@ p {
 
 section {
   box-shadow: 0px 0px 12px #a1a1a1;
-  background-color: #f1f1f1
+  background-color: #f1f1f1;
+  padding-top: 20px;
+  padding-bottom: 40px;
 }
 
 .subsection {
