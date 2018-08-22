@@ -32,6 +32,13 @@
 
       });
 
+      var hover = function (element) {
+        element.setAttribute('src', 'img/profile.jpg');
+      }
+
+      var leave = function (element) {
+        element.setAttribute('src', 'img/profile2.jpg');
+      }
 
     </script>
 
@@ -40,12 +47,14 @@
   <body>
 
       <ul id="nav" class="hidden-xs hidden-sm">
+        <li><a href="#me">💻📚🚀</a></li>
         <li><a class="active" href="#me">About me</a></li>
         <li><a href="#work">Work Experience</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#demos">Demos</a></li>
         <li><a href="#talks">Talks</a></li>
+        <li><a href="#me">🔝</a></li>
       </ul>
 
       <div id="main">
@@ -53,16 +62,16 @@
         <!-- ME -->
         <section id="me" class="row box">
           <div id="avatar" class="visible-lg col-lg-3">
-            <a href="https://adrianecom.github.io/portfolio/"><img src="img/profile2.jpg"></a>
+            <a href="https://adrianecom.github.io/portfolio/"><img onmouseleave="leave(this);" onmouseover="hover(this);" src="img/profile2.jpg"></a>
 
           </div>
           <div id="avatar-small" class="hidden-lg col-lg-3">
-            <a href="https://adrianecom.github.io/portfolio/"><img src="img/profile2.jpg"></a>
+            <a href="https://adrianecom.github.io/portfolio/"><img onmouseleave="leave(this);" onmouseover="hover(this);" src="img/profile2.jpg"></a>
 
           </div>
 
           <div class="col-lg-9">
-            <h1>About me</h1>
+            <h1>About me 🤖🎮</h1>
             <h2>I am Adrián Egea Comenge,</h2>
             <p>
               Game programming related topics are my passion, such
@@ -86,7 +95,7 @@
             <a target="_blank" href="mailto:adrian.egea.comenge@gmail.com"><img class="icon inline-block" src="img/gmail.png"/></a>
 
             <p>
-              Download pdf resume <a target="_blank" href="pdf/CV-AdrianEgeaComenge.pdf">here</a>.
+              Download pdf resume <a target="_blank" href="pdf/CV-AdrianEgeaComenge.pdf">here 📎</a>
             </p>
           </div>
 
@@ -96,12 +105,12 @@
         <section id="work" class="row box">
 
           <div class="col-lg-12">
-            <h1>Work Experience</h1>
+            <h1>Work Experience 💻⛏</h1>
           </div>
 
           <div class=" col-lg-12">
             <div class="subsection">
-              <h2><a target="_blank" href="http://www.zitrogames.com/">Zitro Games</a></h2>
+              <h2><a target="_blank" href="http://www.zitrogames.com/">Zitro Games 🔗</a></h2>
               <h3>C++ Games Developer</h3>
               <h4>Apr 2018 - Present</h4>
               <h5>C++, Irrlicht, 3D, Graphics, Render, XML</h5>
@@ -116,7 +125,7 @@
           <!--  -->
           <div class=" col-lg-12">
             <div class="subsection">
-              <h2><a target="_blank" href="https://www.cl3ver.com/">Cl3ver</a></h2>
+              <h2><a target="_blank" href="https://www.cl3ver.com/">Cl3ver 🔗</a></h2>
               <h3>Graphics Developer</h3>
               <h4>Jun 2017 - Nov 2017 (6 months)</h4>
               <h5>3D, Graphics, Render, C++ WebGL, OpenGL, OpenCV, HTC vibe, Oculus, JS, NodeJS, Electron.</h5>
@@ -131,7 +140,7 @@
           <!--  -->
           <div class=" col-lg-12">
             <div class="subsection">
-              <h2><a target="_blank" href="https://tretanto.com/">Tretanto</a></h2>
+              <h2><a target="_blank" href="https://tretanto.com/">Tretanto 🔗</a></h2>
               <h3>Web Developer</h3>
               <h4>Dec 2015 - Apr 2016 (5 months)</h4>
               <h5>JS, JQuery, AngularJS, Android, REST API, Social Networks building,
@@ -146,7 +155,7 @@ and some parts of frontend.
           <!--  -->
           <div class=" col-lg-12">
             <div class="subsection">
-              <h2><a target="_blank" href="http://www.neosistec.com/">Neosistec</a></h2>
+              <h2><a target="_blank" href="http://www.neosistec.com/">Neosistec 🔗</a></h2>
               <h3>Android Developer</h3>
               <h4>Feb 2015 - Apr 2015 (3 months)</h4>
               <h5>Java, XML, MySQL.</h5>
@@ -162,7 +171,7 @@ and some parts of frontend.
         <section id="projects" class="row box">
 
           <div class="col-lg-12">
-            <h1>Projects</h1>
+            <h1>Projects 💻📚</h1>
           </div>
 
           <!--  -->
@@ -170,12 +179,13 @@ and some parts of frontend.
             <div class="subsection">
               <h2>DruidEngine: C++ and OpenGL Game Engine</h2>
               <p>
-                Improving my C++ / OpenGL skills by writing a Game Engine. Custom Memory Allocators, Custom Containers, Maths Module, Debug utils...
+                <strong>C++ / OpenGL 3D Game Engine</strong> from scratch. 3D math module. (Vectors, Matrices, Quaternions...),
+                Custom memory allocators. (Pool, Stack, Linear, FreeList...), Containers (List, Array, Dynamic Array, HashMap, Tree...)
               </p>
 
               <p>
                 You can see the status of this project on this Github repository:
-                <a target="_blank" href="https://github.com/AdrianECom/DruidEngine">https://github.com/AdrianECom/DruidEngine</a>
+                <a target="_blank" href="https://github.com/AdrianECom/DruidEngine">https://github.com/AdrianECom/DruidEngine 🔗</a>
               </p>
 
             </div>
@@ -186,18 +196,18 @@ and some parts of frontend.
             <div class="subsection">
               <h2>ThiefEngine: JS and WebGL 2D Game Engine</h2>
               <p>
-                End-of-degree project. Game Engine written in Javascript, WebGL and GLSL.
+                End-of-degree project. Game Engine written in <strong>Javascript, WebGL and GLSL</strong>.
                 Component-Entity-System based, Custom render engine, Box2D Web physics engine, SpriteSheet and Textures Atlas support.
               </p>
 
               <p>
                 You can see the status of this project on this Github repository:
-                <a target="_blank" href="https://github.com/AdrianECom/ThiefEngine">https://github.com/AdrianECom/ThiefEngine</a>
+                <a target="_blank" href="https://github.com/AdrianECom/ThiefEngine">https://github.com/AdrianECom/ThiefEngine 🔗</a>
               </p>
 
               <p>
                 The project document where I explain the whole process of design:
-                <a target="_blank" href="https://github.com/AdrianECom/TFG-GameEngine-2D/blob/master/TFG-GameEngine2D-WebGL-AdrianEgeaComenge.pdf"> Link to document.</a>
+                <a target="_blank" href="https://github.com/AdrianECom/TFG-GameEngine-2D/blob/master/TFG-GameEngine2D-WebGL-AdrianEgeaComenge.pdf"> Link to document. 🔗</a>
               </p>
 
             </div>
@@ -208,8 +218,8 @@ and some parts of frontend.
             <div class="subsection">
               <h2>Real Time Wargame: Artificial Intelligence Project</h2>
               <p>
-                University Project. Artificial Intelligence for Video Games. Java + LibGDX. (Basic Steering, Delegate Steering, Group Steering, Flocking, State Machines, Pathfinding).
-                <a target="_blank" href="https://github.com/AdrianECom/AI-Videogames-2016">https://github.com/AdrianECom/AI-Videogames-2016</a>
+                University Project. Artificial Intelligence for Video Games. <strong>Java + LibGDX</strong>. (Basic Steering, Delegate Steering, Group Steering, Flocking, State Machines, Pathfinding).
+                <a target="_blank" href="https://github.com/AdrianECom/AI-Videogames-2016">https://github.com/AdrianECom/AI-Videogames-2016 🔗</a>
               </p>
             </div>
           </div>
@@ -220,11 +230,11 @@ and some parts of frontend.
         <section id="skills" class="row box">
 
           <div class="col-lg-12">
-            <h1>Skills</h1>
+            <h1>Skills 💻🤹🏼‍♂️</h1>
             <div class="row">
               <div class=" col-lg-4">
                 <div class="subsection">
-                  <h2>Programming Languages</h2>
+                  <h2>Programming Languages 💻</h2>
                   <p>
                       C++,
                       C,
@@ -243,7 +253,7 @@ and some parts of frontend.
 
               <div class=" col-lg-4">
                 <div class="subsection">
-                  <h2>Video Games Technologies</h2>
+                  <h2>Video Games Technologies 🎮</h2>
                   <p>
                       OpenGL,
                       WebGL,
@@ -259,7 +269,7 @@ and some parts of frontend.
 
               <div class=" col-lg-4">
                 <div class="subsection">
-                  <h2>Video Games Concepts</h2>
+                  <h2>Video Games Concepts 📚</h2>
                   <p>
                       Game Engine Architecture and internals,
                       Artificial Intelligence (AI) for Games,
@@ -274,7 +284,7 @@ and some parts of frontend.
 
               <div class=" col-lg-4">
                 <div class="subsection">
-                  <h2>Attitude</h2>
+                  <h2>Attitude 🕺</h2>
                   <p>
                       Love to learn,
                       Self-learner,
@@ -287,7 +297,7 @@ and some parts of frontend.
 
               <div class=" col-lg-4">
                 <div class="subsection">
-                  <h2>Others</h2>
+                  <h2>Others 🚀</h2>
                   <p>
                       Git,
                       CMake,
@@ -312,16 +322,16 @@ and some parts of frontend.
         <section id="demos" class="row box">
 
           <div class="col-lg-12">
-            <h1>Demos</h1>
+            <h1>Demos👨🏾‍💻🎮</h1>
           </div>
 
           <!--  -->
           <div class=" col-lg-12">
             <div class="subsection">
-              <h2>Real Time Wargame: Artificial Intelligence Project</h2>
+              <h2>Real Time Wargame: Artificial Intelligence Project 🧠⚔️</h2>
               <p>
                 Download .jar executable in this
-                <a target="_blank" href="demos/RealTimeWargame.jar">link</a>.
+                <a target="_blank" href="demos/RealTimeWargame.jar">link 🔗</a>.
                 University Project. Artificial Intelligence for Video Games. Made with <strong>Java + LibGDX</strong>. (Basic Steering, Delegate Steering, Group Steering, Flocking, State Machines, Pathfinding).
               </p>
             </div>
@@ -330,10 +340,10 @@ and some parts of frontend.
           <!--  -->
           <div class=" col-lg-12">
             <div class="subsection">
-              <h2>Snake</h2>
+              <h2>Snake 🐍</h2>
               <p>
                 A Snake inspired
-                <a target="_blank" href="demos/test/snake/index.html">demo</a>. Made with my 2D Game Engine: <strong><a target="_blank" href="https://github.com/AdrianECom/ThiefEngine">ThiefEngine</a></strong>.
+                <a target="_blank" href="demos/test/snake/index.html">demo 🔗</a>. Made with my 2D Game Engine: <strong><a target="_blank" href="https://github.com/AdrianECom/ThiefEngine">ThiefEngine 🔗</a></strong>.
                 Earn coins to obtain more followers, up to 15 followers.
                 If you collide with a follower, you'll lose a life. You have 3 lifes.
                 Use WASD or ARROW KEYS to move.
@@ -344,10 +354,10 @@ and some parts of frontend.
           <!--  -->
           <div class=" col-lg-12">
             <div class="subsection">
-              <h2>Turrets</h2>
+              <h2>Turrets 💣</h2>
               <p>
                 Turrets fire on you in this
-                <a target="_blank" href="demos/test/turret/index.html">demo</a>. Made with my 2D Game Engine: <strong><a target="_blank" href="https://github.com/AdrianECom/ThiefEngine">ThiefEngine</a></strong>.
+                <a target="_blank" href="demos/test/turret/index.html">demo 🔗</a>. Made with my 2D Game Engine: <strong><a target="_blank" href="https://github.com/AdrianECom/ThiefEngine">ThiefEngine 🔗</a></strong>.
                 Dodge the bullets. You have 5 seconds for invulnerability. You have 3 lifes.
                 Use WASD or ARROW KEYS to move.
               </p>
@@ -359,7 +369,7 @@ and some parts of frontend.
         <section id="talks" class="row box">
 
           <div class="col-lg-12">
-            <h1>Talks</h1>
+            <h1>Talks 🗣</h1>
           </div>
 
           <!--  -->
@@ -368,7 +378,7 @@ and some parts of frontend.
               <h2>Talk: Graphics and WebGL</h2>
               <p>
                 Talk in spanish about graphics and WebGL at CodeCamp17.
-                <a target="_blank" href="https://github.com/AdrianECom/Charla-Graficos-CodeCamp17">https://github.com/AdrianECom/Charla-Graficos-CodeCamp17</a>
+                <a target="_blank" href="https://github.com/AdrianECom/Charla-Graficos-CodeCamp17">https://github.com/AdrianECom/Charla-Graficos-CodeCamp17 🔗</a>
               </p>
             </div>
           </div>
