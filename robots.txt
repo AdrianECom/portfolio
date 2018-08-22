@@ -1,0 +1,7 @@
+User-Agent: *
+Disallow: /main.css
+Disallow: /demos/
+Disallow: /js/
+Disallow: /img/
+Disallow: /bootstrap-3.3.7-dist/
+Sitemap: https://adrianecom.github.io/portfolio/sitemap.xml
